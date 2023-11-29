@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textodegradado {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #EDFF7D, #49F992);
+}
