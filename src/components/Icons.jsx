@@ -53,3 +53,89 @@ export function IconArrowDownRight(props) {
         </svg>
     );
 }
+
+export function IconResponsive(props) {
+    return (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        height="30px"
+        width="30px"
+        {...props}
+      >
+        <path d="M4 6v10h5v-4a2 2 0 012-2h5a2 2 0 012 2v4h2V6H4M0 20v-2h4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2v10a2 2 0 01-2 2h4v2h-6a2 2 0 01-2 2h-5a2 2 0 01-2-2H0m11.5 0a.5.5 0 00-.5.5.5.5 0 00.5.5.5.5 0 00.5-.5.5.5 0 00-.5-.5m4 0a.5.5 0 00-.5.5.5.5 0 00.5.5.5.5 0 00.5-.5.5.5 0 00-.5-.5M13 20v1h1v-1h-1m-2-8v7h5v-7h-5z" 
+        fill="url(#grad)" />
+      </svg>
+    );
+}
+
+export function IconSearch(props) {
+    return (
+      <svg
+        fill="none"
+        viewBox="0 0 16 16"
+        height="30px"
+        width="30px"
+        {...props}
+      >
+        <path d="M11.742 10.344a6.5 6.5 0 10-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 001.415-1.414l-3.85-3.85a1.007 1.007 0 00-.115-.1zM12 6.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" 
+        fill="url(#grad)"/>
+      </svg>
+    );
+}
+
+export function IconBackInTime(props) {
+    return (
+      <svg
+        viewBox="0 0 940 1000"
+        fill="none"
+        height="30px"
+        width="30px"
+        {...props}
+      >
+        <path d="M532 90c113.333 0 209.667 40 289 120s119 176.667 119 290-39.667 210-119 290-175.667 120-289 120c-92 0-176-29.333-252-88l70-76c54.667 40 115.333 60 182 60 84 0 156-30 216-90s90-132 90-216c0-85.333-30-158-90-218s-132-90-216-90c-82.667 0-153.667 28.667-213 86s-90.333 127.333-93 210h142L184 694 0 488h124c2.667-110.667 43.667-204.667 123-282S421.333 90 532 90m-36 190h70v204l130 130-50 50-150-150V280"
+        fill="url(#grad)" />
+      </svg>
+    );
+}
+
+export function IconSafetyCertificate(props) {
+    return (
+      <svg
+        viewBox="0 0 1024 1024"
+        fill="none"
+        height="30px"
+        width="30px"
+        {...props}
+      >
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style={{ stopColor: '#EDFF7D', stopOpacity: 1 }} />
+            <stop offset="100%" style={{ stopColor: '#49F992', stopOpacity: 1 }} />
+          </linearGradient>
+        </defs>
+        <path
+          d="M866.9 169.9L527.1 54.1C523 52.7 517.5 52 512 52s-11 .7-15.1 2.1L157.1 169.9c-8.3 2.8-15.1 12.4-15.1 21.2v482.4c0 8.8 5.7 20.4 12.6 25.9L499.3 968c3.5 2.7 8 4.1 12.6 4.1s9.2-1.4 12.6-4.1l344.7-268.6c6.9-5.4 12.6-17 12.6-25.9V191.1c.2-8.8-6.6-18.3-14.9-21.2zM810 654.3L512 886.5 214 654.3V226.7l298-101.6 298 101.6v427.6zm-405.8-201c-3-4.1-7.8-6.6-13-6.6H336c-6.5 0-10.3 7.4-6.5 12.7l126.4 174a16.1 16.1 0 0026 0l212.6-292.7c3.8-5.3 0-12.7-6.5-12.7h-55.2c-5.1 0-10 2.5-13 6.6L468.9 542.4l-64.7-89.1z"
+          fill="url(#grad)"
+        />
+      </svg>
+    );
+}
+
+export function IconCheck16(props) {
+    return (
+      <svg
+        viewBox="0 0 16 16"
+        fill="currentColor"
+        height="1em"
+        width="1em"
+        {...props}
+      >
+        <path
+          fillRule="evenodd"
+          d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"
+          fill="url(#grad)"
+        />
+      </svg>
+    );
+}

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { MenuIcon, XIcon, IconWhatsapp } from './Icons';
+import { enlaces } from '../constants';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,8 +10,8 @@ export function Header() {
   };
 
   return (
-    <nav className="fixed w-full top-0 z-50 bg-[#010309] bg-opacity-50">
-      <div className="max-w-screen-xl px-5 md:px-0 flex flex-wrap items-center justify-between mx-auto md:w-5/6 lg:w-[1140px] py-3 md:pl-0">
+    <nav className="fixed w-full top-0 z-50 bg-black backdrop-blur-lg bg-opacity-60 border-opacity-50">
+      <div className="max-w-screen-xl px-5 md:px-0 flex flex-wrap items-center justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0">
         <a href='#inicio' className="flex gap-1 items-center pl-0">
           <img src="/logo.webp" width={125} height={44} alt="Logo Creaciones Webtech" />
         </a>
@@ -35,10 +36,10 @@ export function Header() {
           id="navbar-default"
         >
           <ul className="text-sm md:text-sm lg:text-sm 2xl:text-lg flex flex-col p-4 md:p-0 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
-            {redes.map(red => (
-              <li key={red.id} className="mt-4 md:mt-0 ">
-                <a href={red.link} className="flex items-center justify-center md:justify-start">
-                  <p className="block text-white text-base ">{red.name}</p>
+            {enlaces.map(enlace => (
+              <li key={enlace.id} className="mt-4 md:mt-0 ">
+                <a href={enlace.link} className="flex items-center justify-center md:justify-start">
+                  <p className="block text-white text-base ">{enlace.name}</p>
                 </a>
               </li>
             ))}
@@ -60,26 +61,3 @@ export function Header() {
     </nav>
   );
 }
-
-const redes = [
-  {
-      id:1,
-      name: "Servicios",
-      link: "#servicios"
-  },
-  {
-      id:2,
-      name: "Experiencias",
-      link: "#experiencias"
-  },
-  {
-      id:3,
-      name: "FAQs",
-      link: "#faqs"
-  },
-  {
-      id:4,
-      name: "Contacto",
-      link: "#contacto"
-  }
-]
