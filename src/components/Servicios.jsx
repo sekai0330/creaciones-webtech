@@ -19,18 +19,18 @@ export function Servicios () {
                                 <ul className="mt-3">
                                     {subs.carateristicas.map((caracteristicas, index) => (
                                         <li key={index} className="flex items-center space-y-2 gap-3 text-white text-sm [text-wrap:balance]">
-                                            <div><IconCheck16 /></div>
+                                            <div className="mt-1.5"><IconCheck16 /></div>
                                             <p>{caracteristicas}</p>
                                         </li>
                                     ))}
                                 </ul>
                             </div>
                             <div className="flex flex-wrap flex-col">
-                                {index === 1 ? <p className="text-center text-sm bg-white p-1 rounded-lg border border-sky-600 shadow-md shadow-sky-300 uppercase font-bold mt-3">Mas Popular</p> : ''}
-                                <p className="text-white font-black text-5xl mt-3 text-center">${subs.precio}<span className="text-base text-white">/mes</span></p>
+                                {/* {index === 1 ? <p className="text-center text-sm bg-white p-1 rounded-lg border border-sky-600 shadow-md shadow-sky-300 uppercase font-bold mt-3">Mas Popular</p> : ''} */}
+                                <p className="text-white text mt-10 mb-2 text-center">{`"${subs.precio}"`}</p>
                                 <div className='p-4 md:p-0 mt-3'>
                                     <a href='' className='flex items-center justify-center gap-2 rounded-xl hover:before:bg-redborder-red-500 relative py-1.5 overflow-hidden bg-gradient-to-r from-[#EDFF7D] to-[#49F992] px-5 shadow-md transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#EDFF7D] before:transition-all before:duration-500 hover:before:left-0 hover:before:w-full'>
-                                        <span className='relative z-10 font-bold'>cotizar </span>
+                                        <span className='relative z-10 font-bold'>Solicitar mas informacion </span>
                                         <span className='relative z-10'><IconWhatsapp /></span>
                                     </a>
                                 </div>

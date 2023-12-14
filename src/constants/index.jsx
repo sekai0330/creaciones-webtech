@@ -74,43 +74,47 @@ export const herramientas = [
 export const paquetes = [
     {
         id: 1,
-        name: "Plan Basico",
-        tipo: "Starter",
-        precio: 9.99,
+        name: "Impulsando mi negocio",
+        tipo: "Landing Page",
+        precio: "Ideal para destacar un producto, servicio o evento especifico",
         carateristicas: [
-            "Acceso completo a nuestra plataforma en línea",
-            "Descuentos exclusivos en productos y servicios seleccionados",
-            "Boletín informativo mensual con consejos y actualizaciones",
-            "Soporte por correo electrónico"
+            "Hosting y Dominio por 1 año",
+            "Certificado SSL",
+            "Diseño para Celular y Tablet",
+            "Matenimiento GRATIS por 30 dias",
+            "Integracion de Redes Sociales",
+            "Tu Landing Page en 7 dias"
         ]
     },
     {
         id: 2,
-        name: "Plan Premium",
-        tipo: "Pro",
-        precio: 19.99,
+        name: "Mi primera pagina",
+        tipo: "Pagina Web",
+        precio: "Perfecto para presentar tu negocio o empresa de manera integral",
         carateristicas: [
-            "Acceso completo a nuestra plataforma en línea",
-            "Descuentos exclusivos en productos y servicios seleccionados",
-            "Acceso prioritario a nuevas funciones y características",
-            "Boletín informativo mensual con consejos y actualizaciones",
-            "Soporte por correo electrónico y chat en vivo",
-            "Contenido exclusivo y webinars mensuales"
+            "Hosting y Dominio por 1 año",
+            "Certificado SSL",
+            "Diseño para Celular y Tablet",
+            "Matenimiento GRATIS por 30 dias",
+            "Integracion de Redes Sociales",
+            "Catalogo de Productos",
+            "formuolario de Contacto"
         ]
     },
     {
         id: 3,
         name: "Plan Empresarial",
-        tipo: "Elite",
-        precio: 49.99,
+        tipo: "Sitios Web",
+        precio: "Recomendado para empresas grades o con diversas ofertas",
         carateristicas: [
-            "Acceso completo a nuestra plataforma en línea",
-            "Descuentos exclusivos en productos y servicios seleccionados",
-            "Acceso prioritario a nuevas funciones y características",
-            "Boletín informativo mensual con consejos y actualizaciones",
-            "Soporte 24/7 por correo electrónico, chat en vivo y teléfono",
-            "Sesiones de consultoría personalizadas mensuales",
-            "Acceso a una comunidad exclusiva para networking y colaboración"
+            "Hosting y Dominio por 1 año",
+            "Certificado SSL",
+            "Diseño para Celular y Tablet",
+            "Matenimiento GRATIS por 30 dias",
+            "Tu Sitio web en 15 dias",
+            "Hasta 5 paginas internas",
+            "Catalogo de Productos",
+            "Formulario de Contacto"
         ]
     }
 ]
