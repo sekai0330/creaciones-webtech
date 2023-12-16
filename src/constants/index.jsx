@@ -118,3 +118,30 @@ export const paquetes = [
         ]
     }
 ]
+
+export const faqs = [
+    {
+        question: '¿Como funciona el metodo de pago?',
+        answer: 'Cobramos el 50% de adelanto y el otro 50% lo cobramos a la hora que te entregamos tu sitio web.',
+    },
+    {
+        question: '¿Ustedes escriben los textos que llevara mi pagina?',
+        answer: 'Nadie conoce tu negocio mejor que tu es por ello que es importante que nos apoyes con el contenido de tu página, esto incluiría textos, imágenes, videos, logotipos, información de contacto, etc.',
+    },
+    {
+        question: '¿Que tengo que hacer para obtener mi sitio web?',
+        answer: 'Contactarnos al WhatsApp: 7553 1045 o nuestro correo electronico, para así poder ir paso a paso con lo que tienes que brindarnos para crear tu sitio web.',
+    },
+    {
+        question: '¿En cuanto tiempo estara mi sitio web?',
+        answer: 'Depende de la complejidad del sitio web, catalo web, landing page o pagina web, los tiempos de entrega se detallan en el  proyectos que adquirio.',
+    },
+    {
+        question: '¿Tengo que pagar mensualmente por el mantenimiento de mi pagina?',
+        answer: 'No, el pago es único. Sin embargo, hay un costo anual por tu dominio y servidor de hosting, si quieres volver a renovarlo puedes hacerlo con nosotros mismos.',
+    },
+    {
+        question: '¿Existe algun tipo de garantia?',
+        answer: 'Cuando adquieres un sitio web, adquieres un dominio y un servicio de hosting, pago en automático . No hay devoluciones en este caso.',
+    },
+];

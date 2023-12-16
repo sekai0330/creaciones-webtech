@@ -18,7 +18,7 @@ export function Servicios () {
                                 <p className="text-center text-3xl font-bold text-[#EDFF7D] mt-2">{subs.tipo}</p>
                                 <ul className="mt-3">
                                     {subs.carateristicas.map((caracteristicas, index) => (
-                                        <li key={index} className="flex items-center space-y-2 gap-3 text-white text-sm [text-wrap:balance]">
+                                        <li key={index} className="flex items-center space-y-2 gap-3 text-[#92A7AA] text-sm [text-wrap:balance]">
                                             <div className="mt-1.5"><IconCheck16 /></div>
                                             <p>{caracteristicas}</p>
                                         </li>
