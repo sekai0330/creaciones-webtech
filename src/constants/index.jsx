@@ -104,8 +104,8 @@ export const paquetes = [
     {
         id: 3,
         name: "Plan Empresarial",
-        tipo: "Sitios Web",
-        precio: "Recomendado para empresas grades o con diversas ofertas",
+        tipo: "Sitio Web",
+        precio: "Recomendado para empresas grandes o con diversas ofertas",
         carateristicas: [
             "Hosting y Dominio por 1 año",
             "Certificado SSL",
