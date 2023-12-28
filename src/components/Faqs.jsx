@@ -21,8 +21,8 @@ export function Faqs ( ) {
                       <div key={index} className="mb-3">
                         <h2
                           id={`accordion-collapse-heading-${index}`}
-                          className={`flex items-center justify-between px-5 py-3 font-medium rtl:text-right text-white border border-[#49F992] bg-[#051b0d] border-opacity-50 rounded-2xl hover:bg-[#001308] cursor-pointer ${
-                            activeIndex === index ? 'bg-[#0f5024] rounded-b-none ' : ''
+                          className={`flex items-center justify-between px-5 py-3 font-medium rtl:text-right text-white border border-[#49F992] bg-[#051b0d] border-opacity-50 rounded-2xl hover:bg-[#001308] transition-colors duration-300 cursor-pointer ${
+                            activeIndex === index ? 'bg-[#051b0d] rounded-b-none ' : ''
                           }`}
                           onClick={() => handleToggle(index)}
                           aria-expanded={activeIndex === index}
@@ -64,10 +64,10 @@ export function Faqs ( ) {
                       </div>
                     ))}
                   </div>
-                  <div className="lg:w-2/5 space-y-3">
+                  <div className="lg:w-2/5 space-y-3 [text-wrap:balance]">
                     <h3 className="text-[#EDFF7D] text-2xl font-bold">¿Aun tienes alguna pregunta?</h3>
-                    <p className="text-[#92A7AA]">Si tienes alguna pregunta o inquietud, no dudes en contactarnos a través de WhatsApp. Estámos listos para proporcionarte respuestas rápidas y soluciones personalizadas.</p>
-                    <p className="text-[#92A7AA]">No dejes que ninguna duda te detenga, ¡estamos a solo un mensaje de distancia para hacer tu experiencia aún mejor!</p>
+                    <p className="text-[#92A7AA] ">Si tienes alguna pregunta o inquietud, no dudes en contactarnos a través de WhatsApp. Estámos listos para proporcionarte respuestas rápidas y soluciones personalizadas.</p>
+                    <p className="text-[#92A7AA] ">No dejes que ninguna duda te detenga, ¡estamos a solo un mensaje de distancia para hacer tu experiencia aún mejor!</p>
                     <div className="flex items-center justify-start md:justify-center lg:justify-start">
                       <div className=' md:p-0 mt-3'>
                           <a href='' className='flex items-center justify-center gap-2 rounded-xl hover:before:bg-redborder-red-500 relative py-1.5 overflow-hidden bg-gradient-to-r from-[#EDFF7D] to-[#49F992] px-8 shadow-md transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#EDFF7D] before:transition-all before:duration-500 hover:before:left-0 hover:before:w-full'>

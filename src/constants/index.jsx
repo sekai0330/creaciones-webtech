@@ -97,8 +97,8 @@ export const paquetes = [
             "Diseño para Celular y Tablet",
             "Matenimiento GRATIS por 30 dias",
             "Integracion de Redes Sociales",
-            "Catalogo de Productos",
-            "formuolario de Contacto"
+            "Tu pagina web en 10 dias",
+            "Catalogo de Productos"
         ]
     },
     {
@@ -110,6 +110,7 @@ export const paquetes = [
             "Hosting y Dominio por 1 año",
             "Certificado SSL",
             "Diseño para Celular y Tablet",
+            "Integracion de Redes Sociales",
             "Matenimiento GRATIS por 30 dias",
             "Tu Sitio web en 15 dias",
             "Hasta 5 paginas internas",

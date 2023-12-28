@@ -17,9 +17,9 @@ export function Hero () {
                       <span className='relative z-10 font-bold'>Conoce mas </span>
                       <span className='relative z-10'><IconArrowDownRight /></span>
                   </a>
-                  <ul className="flex flex-row space-x-4 mt-0">
+                  <ul className="flex flex-row space-x-2 mt-0">
                     {redes.map(red => (
-                      <li key={red.id} >
+                      <li key={red.id} className="p-1.5 hover:bg-green-700 transition-colors duration-300 rounded-lg">
                         <a href={red.link} >
                           <img src={`/img/${red.image}.svg`} alt={`Logo de ${red.name}`} className="w-5 h-5"/>
                         </a>

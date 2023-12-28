@@ -11,7 +11,7 @@ export function Footer () {
                     <p className="text-white [text-wrap:balance] mt-2 md:mt-4">Creación de Paginas Web que destacan tu presencia digital</p>
                     <ul className="flex flex-row space-x-2 mt-3">
                     {redes.map(red => (
-                      <li key={red.id} className="p-1.5 hover:bg-green-700 rounded-lg">
+                      <li key={red.id} className="p-1.5 hover:bg-green-700 transition-colors duration-300 rounded-lg">
                         <a href={red.link} >
                           <img src={`/img/${red.image}.svg`} alt={`Logo de ${red.name}`} className="w-5 h-5"/>
                         </a>
