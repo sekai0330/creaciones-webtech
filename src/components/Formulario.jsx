@@ -39,8 +39,8 @@ export function Formulario () {
       };
 
     return (
-        <div>
-            <section className="max-w-screen-xl px-5 md:px-0 flex flex-col lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0 mt-20">
+        <div id="contacto">
+            <section className="max-w-screen-xl px-5 md:px-0 flex flex-col lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0 pt-20">
                 <h2 className="textodegradado text-3xl text-center font-extrabold py-2 [text-wrap:balance]">Ponte En Contacto</h2>
                 <div className="flex flex-col md:flex-row gap-10 items-center">
                     <div className='w-full md:w-2/5 mt-10'>

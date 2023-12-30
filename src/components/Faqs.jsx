@@ -11,8 +11,8 @@ export function Faqs ( ) {
     };
 
     return(
-        <div>
-            <section className="max-w-screen-xl px-5 md:px-0 flex flex-col items-center justify-center lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0 mt-20">
+        <div id="faqs" className="">
+            <section className="max-w-screen-xl px-5 md:px-0 flex flex-col items-center justify-center lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0 pt-20">
                 <h2 className="textodegradado text-3xl font-extrabold py-2 [text-wrap:balance]">Preguntas Frecuentes</h2>
             
                 <div className="flex flex-col lg:flex-row items-center gap-10">
