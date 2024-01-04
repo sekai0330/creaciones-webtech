@@ -39,8 +39,8 @@ export function Formulario () {
       };
 
     return (
-        <div id="contacto">
-            <section className="max-w-screen-xl px-5 md:px-0 flex flex-col lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0 pt-20">
+        <div id="contacto" className="[background-image:url(/img/formulario.webp)] bg-center bg-cover bg-no-repeat">
+            <section className="max-w-screen-xl px-5 md:px-0 flex flex-col lg:justify-between mx-auto md:w-5/6 lg:w-5/6 md:pl-0 py-10">
                 <h2 className="textodegradado text-3xl text-center font-extrabold py-2 [text-wrap:balance]">Ponte En Contacto</h2>
                 <div className="flex flex-col md:flex-row gap-10 items-center">
                     <div className='w-full md:w-2/5 mt-10'>
@@ -53,15 +53,15 @@ export function Formulario () {
                             
                         <div className="mb-6">
                             <label htmlFor="nombre" className="block mb-2  font-medium text-white">Tu Nombre</label>
-                            <input type="text" value={formValues.nombre || ""} onChange={handleInputChange} id="nombre" name="nombre" placeholder="Ej... Edwin Santos" className=" bg-black border border-[#49F992] text-white rounded-lg focus:ring-[#EDFF7D] focus:outline-none focus:ring-2  block w-full p-2.5 transition duration-300" required/>
+                            <input type="text" value={formValues.nombre || ""} onChange={handleInputChange} id="nombre" name="nombre" placeholder="Ej... Edwin Santos" className=" bg-black bg-opacity-50 border border-[#49F992] text-white rounded-lg focus:ring-[#EDFF7D] focus:outline-none focus:ring-2  block w-full p-2.5 transition duration-300" required/>
                         </div>
                         <div className="mb-6">
                             <label htmlFor="email" className="block mb-2  font-medium text-white">Tu Correo</label>
-                            <input type="email" value={formValues.email || ""} onChange={handleInputChange} id="email" name="email" className=" bg-black border border-[#49F992] text-white rounded-lg focus:ring-[#EDFF7D] focus:outline-none focus:ring-2  block w-full p-2.5 transition duration-300" placeholder="escribetucorreo@gmail.com" required/>
+                            <input type="email" value={formValues.email || ""} onChange={handleInputChange} id="email" name="email" className=" bg-black bg-opacity-50 border border-[#49F992] text-white rounded-lg focus:ring-[#EDFF7D] focus:outline-none focus:ring-2  block w-full p-2.5 transition duration-300" placeholder="escribetucorreo@gmail.com" required/>
                         </div>
                         <div className="mb-6">
                             <label htmlFor="mensaje" className="block mb-2  font-medium text-white">Tu Mensaje</label>
-                            <textarea id="mensaje" value={formValues.mensaje || ""} onChange={handleInputChange} name="mensaje" rows="4" className="bg-black border border-[#49F992] text-white rounded-lg focus:ring-[#EDFF7D] focus:outline-none focus:ring-2  block w-full p-2.5 transition duration-300" placeholder="Ej... Cuando nos podriamos reunir " required></textarea>
+                            <textarea id="mensaje" value={formValues.mensaje || ""} onChange={handleInputChange} name="mensaje" rows="4" className="bg-black bg-opacity-50 border border-[#49F992] text-white rounded-lg focus:ring-[#EDFF7D] focus:outline-none focus:ring-2  block w-full p-2.5 transition duration-300" placeholder="Ej... Cuando nos podriamos reunir " required></textarea>
                         </div>
                         <button type="submit" className="flex items-center justify-center gap-2 rounded-xl hover:before:bg-redborder-red-500 relative py-1.5 overflow-hidden bg-gradient-to-r from-[#EDFF7D] to-[#49F992] px-8 shadow-md transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#EDFF7D] before:transition-all before:duration-500 hover:before:left-0 hover:before:w-full">
                             <span className='relative z-10 font-bold'>Enviar</span>
@@ -70,7 +70,7 @@ export function Formulario () {
                         </form>
                     </div>
                     <div className="md:w-3/5 mt-10 flex flex-col items-center">
-                        <div className=" bg-gray-900 py-5 px-10 rounded-xl">
+                        <div className=" bg-black bg-opacity-50 border border-opacity-50 border-[#49F992] py-5 px-10 rounded-xl">
                             <div className='flex items-center gap-3 text-3xl font-semibold text-[#49F992] '>
                                 <h3>WhatsApp</h3>
                                 <IconWhatsapp />

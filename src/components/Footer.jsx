@@ -2,7 +2,7 @@ import { redes, enlaces } from "../constants"
 
 export function Footer () {
     return (
-        <footer className="[background-image:url(/img/footer.webp)] bg-center bg-cover mt-20">
+        <footer className="[background-image:url(/img/footer.webp)] bg-center bg-cover mt-20 rounded-t-3xl">
             <section className="max-w-screen-xl mx-auto md:w-5/6 px-3 md:px-0 flex flex-col md:text-left text-center md:flex-row items-center md:items-start md:justify-between py-10 space-y-5 md:space-y-0">
                 <div className="flex flex-col w-2/3 md:w-1/3 items-center md:items-start">
                     <a href='#inicio' className="flex gap-1 items-center pl-0">
