@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer"
 import { Conocemas } from "./components/Conocemas"
 import { Formulario } from "./components/Formulario"
 import { Faqs } from "./components/Faqs"
+import { Experiencia } from "./components/Experiencia"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Conocemas />
       <Servicios />
+      <Experiencia />
       <Faqs />
       <Formulario />
       <Footer />

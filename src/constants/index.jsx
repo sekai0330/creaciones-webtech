@@ -44,6 +44,34 @@ export const enlaces = [
     }
 ]
 
+export const razones = [
+    {
+        id:1,
+        titulo: "Profesionalismo y Credibilidad:",
+        descripcion: "Un sitio web profesional mejora la credibilidad, generando confianza entre los clientes."
+    },
+    {
+        id:2,
+        titulo: "Visibilidad en Buscadores (SEO):",
+        descripcion: "La optimización para motores de búsqueda aumenta la visibilidad, atrayendo nuevos clientes."
+    },
+    {
+        id:3,
+        titulo: "Información Completa y Estructurada:",
+        descripcion: "Un sitio web organiza la información de manera clara, facilitando la comprensión de productos o servicios."
+    },
+    {
+        id:4,
+        titulo: "Conversión de Clientes:",
+        descripcion: "Persuade a los visitantes para convertirse en clientes mediante información detallada y persuasiva."
+    },
+    {
+        id:5,
+        titulo: "Integración con Redes Sociales:",
+        descripcion: "La integración efectiva con redes sociales amplía la presencia en línea y mejora la interacción con audiencias diversas."
+    }
+]
+
 export const herramientas = [
     {
         id:1,
@@ -117,6 +145,30 @@ export const paquetes = [
             "Catalogo de Productos",
             "Formulario de Contacto"
         ]
+    }
+]
+
+export const proyects = [
+    {
+        id: 1,
+        name: "Bienes Raices",
+        category: "sitio Web",
+        link: "https://bienesraices-alpha.vercel.app/",
+        image: "bienesraices"
+    },
+    {
+        id: 2,
+        name: "ShoesShop",
+        category: "Catalogo",
+        link: "https://shoesshoping.netlify.app/",
+        image: "shoesshop"
+    },
+    {
+        id: 3,
+        name: "MuebleriaShop",
+        category: "Catalogo",
+        link: "https://catalogoconrouting.vercel.app/",
+        image: "muebleriashop"
     }
 ]
 

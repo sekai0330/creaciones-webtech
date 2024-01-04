@@ -4,7 +4,7 @@ import { IconWhatsapp, IconCheck16 } from "./Icons"
 export function Servicios () {
     return (
         <div id="servicios" className="">
-            <section  className="max-w-screen-xl px-5 md:px-0 flex flex-col items-center justify-center lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0 pt-20">
+            <section  className="max-w-screen-xl px-5 md:px-0 flex flex-col items-center justify-center lg:justify-between mx-auto md:w-5/6 lg:w-5/6 md:pl-0 py-10">
                 <h3 className="textodegradado text-3xl font-extrabold py-2 [text-wrap:balance] ">Nuestros Paquetes</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 place-content-center mt-10">
                     {paquetes.map((subs, index) => (
