@@ -10,6 +10,10 @@ export function Faqs ( ) {
         setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
     };
 
+    const whatsappNumber = '75331045';
+    const message = `¡Hola! Tengo dudas sobre sus servicios, me podrian brindar mas informacion?`;
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
     return(
         <div id="faqs" className="">
             <section className="max-w-screen-xl px-5 md:px-0 flex flex-col items-center justify-center lg:justify-between mx-auto md:w-5/6 lg:w-5/6 md:pl-0 py-10">
@@ -70,7 +74,7 @@ export function Faqs ( ) {
                     <p className="text-[#92A7AA] ">No dejes que ninguna duda te detenga, ¡estamos a solo un mensaje de distancia para hacer tu experiencia aún mejor!</p>
                     <div className="flex items-center justify-start md:justify-center lg:justify-start">
                       <div className=' md:p-0 mt-3'>
-                          <a href='' className='flex items-center justify-center gap-2 rounded-xl hover:before:bg-redborder-red-500 relative py-1.5 overflow-hidden bg-gradient-to-r from-[#EDFF7D] to-[#49F992] px-8 shadow-md transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#EDFF7D] before:transition-all before:duration-500 hover:before:left-0 hover:before:w-full'>
+                          <a href={whatsappLink} target="_blank" rel="noreferrer" className='flex items-center justify-center gap-2 rounded-xl hover:before:bg-redborder-red-500 relative py-1.5 overflow-hidden bg-gradient-to-r from-[#EDFF7D] to-[#49F992] px-8 shadow-md transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#EDFF7D] before:transition-all before:duration-500 hover:before:left-0 hover:before:w-full'>
                               <span className='relative z-10 font-bold'>Escribir al WhatsApp</span>
                               <span className='relative z-10'><IconWhatsapp /></span>
                           </a>

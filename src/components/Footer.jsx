@@ -12,7 +12,7 @@ export function Footer () {
                     <ul className="flex flex-row space-x-2 mt-3">
                     {redes.map(red => (
                       <li key={red.id} className="p-1.5 hover:bg-green-700 transition-colors duration-300 rounded-lg">
-                        <a href={red.link} >
+                        <a href={red.link} target="_blank" rel="noreferrer">
                           <img src={`/img/${red.image}.svg`} alt={`Logo de ${red.name}`} className="w-5 h-5"/>
                         </a>
                       </li>

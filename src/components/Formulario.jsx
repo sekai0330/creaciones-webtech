@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 import { IconSendFill, IconWhatsapp } from "./Icons";
 import { redes } from "../constants";
+import { toast } from "react-toastify";
+import emailjs  from '@emailjs/browser'
 
 export function Formulario () {
     const form = useRef();
@@ -16,7 +18,7 @@ export function Formulario () {
             return;
         }
 
-        emailjs.sendForm('service_4ahhxwl', 'template_dm4vv9y', form.current, 'IYV1jTyhjv08dD_Qs')
+        emailjs.sendForm('service_7qh4pxf', 'template_qu40jpr', form.current, 'IYV1jTyhjv08dD_Qs')
         .then((result) => {
         toast.success("Mensaje Enviado Correctamente", {
             theme: "colored"
@@ -36,7 +38,11 @@ export function Formulario () {
           ...formValues,
           [e.target.name]: e.target.value
         });
-      };
+    };
+
+    const whatsappNumber = '75331045';
+    const message = `¡Hola! Estoy interesado en cotizar sobre sus servicios de desarrollo web`;
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     return (
         <div id="contacto" className="[background-image:url(/img/formulario.webp)] bg-center bg-cover bg-no-repeat">
@@ -79,7 +85,7 @@ export function Formulario () {
                             <p className="text-[#92A7AA]">Escribenos ahora y cotiza tu Pagina Web</p>
                             <div className="flex items-center pt-1 justify-start md:justify-center lg:justify-start">
                                 <div className=' md:p-0 mt-3'>
-                                    <a href='' className='flex items-center justify-center gap-2 rounded-xl hover:before:bg-redborder-red-500 relative py-1.5 overflow-hidden bg-gradient-to-r from-[#EDFF7D] to-[#49F992] px-8 shadow-md transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#EDFF7D] before:transition-all before:duration-500 hover:before:left-0 hover:before:w-full'>
+                                    <a href={whatsappLink} target="_blank" rel="noreferrer" className='flex items-center justify-center gap-2 rounded-xl hover:before:bg-redborder-red-500 relative py-1.5 overflow-hidden bg-gradient-to-r from-[#EDFF7D] to-[#49F992] px-8 shadow-md transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-[#EDFF7D] before:transition-all before:duration-500 hover:before:left-0 hover:before:w-full'>
                                         <span className='relative z-10 font-bold'>Escribir al WhatsApp</span>
                                         <span className='relative z-10'><IconWhatsapp /></span>
                                     </a>
@@ -91,7 +97,7 @@ export function Formulario () {
                             <ul className="flex flex-row space-x-2 mt-0">
                                 {redes.map(red => (
                                 <li key={red.id} className="p-1.5 hover:bg-green-700 transition-colors duration-300 rounded-lg" >
-                                    <a href={red.link} >
+                                    <a href={red.link} target="_blank" rel="noreferrer">
                                     <img src={`/img/${red.image}.svg`} alt={`Logo de ${red.name}`} className="w-5 h-5"/>
                                     </a>
                                 </li>

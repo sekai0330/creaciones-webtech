@@ -6,6 +6,8 @@ import { Conocemas } from "./components/Conocemas"
 import { Formulario } from "./components/Formulario"
 import { Faqs } from "./components/Faqs"
 import { Experiencia } from "./components/Experiencia"
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 function App() {
 
@@ -19,6 +21,7 @@ function App() {
       <Faqs />
       <Formulario />
       <Footer />
+      <ToastContainer />
     </>
   )
 }

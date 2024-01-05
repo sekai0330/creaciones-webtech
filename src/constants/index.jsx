@@ -4,7 +4,7 @@ export const redes = [
     {
         id:1,
         name: "Facebook",
-        link: "https://www.facebook.com/",
+        link: "https://www.facebook.com/creacioneswebtech/",
         image: "facebook"
     },
     {
@@ -16,7 +16,7 @@ export const redes = [
     {
         id:3,
         name: "TikTok",
-        link: "https://www.tiktok.com/",
+        link: "https://www.tiktok.com/@creacioneswebtech",
         image: "tiktok"
     }
 ]
