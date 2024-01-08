@@ -7,13 +7,13 @@ export function Conocemas () {
             <section className="max-w-screen-xl px-5 md:px-0 flex flex-col items-center justify-center lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0 pt-20">
                 <h2 className="textodegradado text-3xl font-extrabold py-2 [text-wrap:balance]">¿Cómo una Página Web Eleva tu Negocio al Próximo Nivel?</h2>
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
-                    <div className="lg:w-1/2">
+                    <div className="lg:w-1/2 animaciones">
                         <img src="/img/imgconocemas.webp" alt="imagen de Hero" />
                     </div>
                     <div className="lg:w-1/2">
                         <ul className="space-y-3">
                             {razones.map(razon => (
-                                <li key={razon.id}>
+                                <li key={razon.id} className="animaciones">
                                     <p className="text-lg font-bold text-white [text-wrap:balance]">{razon.titulo}</p>
                                     <p className=" text-[#92A7AA] [text-wrap:balance]">{razon.descripcion}</p>
                                 </li>
@@ -25,7 +25,7 @@ export function Conocemas () {
                     <div className="lg:w-3/5 order-last lg:order-none">
                         <ul className="grid grid-cols-2 gap-10">
                             {herramientas.map(herramienta => (
-                                <li key={herramienta.id}>
+                                <li key={herramienta.id} className="faded-right">
                                     <div className="flex">
                                         <div className="p-4 border border-[#49F992] border-opacity-50 rounded-2xl overflow-hidden hover:scale-110 transition-all">
                                             {herramienta.image}
@@ -37,7 +37,7 @@ export function Conocemas () {
                             ))}
                         </ul>
                     </div>
-                    <div className="lg:w-2/5 order-first lg:order-none">
+                    <div className="lg:w-2/5 order-first lg:order-none faded-left">
                         <h2 className="textodegradado text-3xl font-extrabold pb-2 [text-wrap:balance] mb-3">Todo lo esencial para hacer despegar tu sitio web</h2>
                         <div className="space-y-4">
                             <p className="text-base text-[#92A7AA] [text-wrap:balance]">Descubre todo lo esencial para impulsar tu sitio web. Desde un diseño atractivo hasta funciones avanzadas, ofrecemos las herramientas necesarias para hacer despegar tu presencia en línea</p> 

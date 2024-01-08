@@ -34,8 +34,8 @@ export function Header() {
           )}
         </button>
         <div
-          className={`absolute top-full left-0 px-1 pb-1 w-full md:w-auto ${
-            isMenuOpen ? 'block bg-[#010309]' : 'hidden'
+          className={`absolute top-full  left-0 px-1 pb-1 w-full md:w-auto ${
+            isMenuOpen ? 'block bg-black backdrop-blur-lg bg-opacity-90 border-opacity-50' : 'hidden'
           } transition-all duration-500 ease-in-out md:flex md:items-center md:space-x-8 md:relative md:bg-transparent`}
           id="navbar-default"
         >

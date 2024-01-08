@@ -7,3 +7,91 @@
     color: transparent;
     background-image: linear-gradient(to right, #EDFF7D, #49F992);
 }
+
+.animaciones {
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+}
+
+@keyframes reveal {
+    from{
+        opacity: 0;
+        translate: 0 100px;
+        scale: .5;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+        scale: 1;
+    }
+}
+
+.slide-right {
+	animation: slide-right 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes slide-right {
+    0% {
+              transform: translateX(-100px);
+              opacity: 0;
+              scale: .8;
+    }
+    100% {
+              transform: translateX(0);
+              opacity: 1;
+              scale: 1;
+    }
+}
+
+.slide-left {
+	animation: slide-left 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+        scale: .8;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.faded-right {
+    animation: rightfaded linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+}
+
+@keyframes rightfaded {
+    from{
+        opacity: 0;
+        translate: -100px 0;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+.faded-left {
+    animation: leftfaded linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+}
+
+@keyframes leftfaded {
+    from{
+        opacity: 0;
+        translate: 100px 0;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
