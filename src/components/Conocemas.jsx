@@ -25,7 +25,7 @@ export function Conocemas () {
                     <div className="lg:w-3/5 order-last lg:order-none">
                         <ul className="grid grid-cols-2 gap-10">
                             {herramientas.map(herramienta => (
-                                <li key={herramienta.id} className="faded-right">
+                                <li key={herramienta.id} className="animaciones">
                                     <div className="flex">
                                         <div className="p-4 border border-[#49F992] border-opacity-50 rounded-2xl overflow-hidden hover:scale-110 transition-all">
                                             {herramienta.image}
@@ -37,9 +37,9 @@ export function Conocemas () {
                             ))}
                         </ul>
                     </div>
-                    <div className="lg:w-2/5 order-first lg:order-none faded-left">
-                        <h2 className="textodegradado text-3xl font-extrabold pb-2 [text-wrap:balance] mb-3">Todo lo esencial para hacer despegar tu sitio web</h2>
-                        <div className="space-y-4">
+                    <div className="lg:w-2/5 order-first lg:order-none ">
+                        <h2 className="textodegradado text-3xl font-extrabold pb-2 [text-wrap:balance] mb-3 animaciones">Todo lo esencial para hacer despegar tu sitio web</h2>
+                        <div className="space-y-4 animaciones">
                             <p className="text-base text-[#92A7AA] [text-wrap:balance]">Descubre todo lo esencial para impulsar tu sitio web. Desde un diseño atractivo hasta funciones avanzadas, ofrecemos las herramientas necesarias para hacer despegar tu presencia en línea</p> 
                             <p className="text-base text-[#92A7AA] [text-wrap:balance]">Con nosotros, tu sitio web estará listo para destacar y captar la atención que merece.</p>  
                         </div>

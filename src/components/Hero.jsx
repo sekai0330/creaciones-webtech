@@ -6,7 +6,7 @@ export function Hero () {
     return (
         <main id="inicio" className="[background-image:url(/img/hero.webp)] bg-center bg-cover h-[750px] lg:h-[700px] flex">
           <div className="max-w-screen-xl px-5 md:px-0 flex flex-col lg:flex-row items-center justify-center lg:justify-between mx-auto md:w-5/6 lg:w-5/6 py-3 md:pl-0">
-              <div className="lg:w-3/5 lg:order-last flex items-center justify-center ">
+              <div className="relative lg:w-3/5 lg:order-last flex items-center justify-center ">
                 <img src="/img/imghero.webp" alt="imagen de Hero" className="" />
               </div>
               <div className="lg:w-2/5 lg:order-first space-y-5 ">

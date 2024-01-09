@@ -8,7 +8,7 @@ export function Experiencia () {
                 <h2 className="textodegradado text-3xl text-center font-extrabold py-2 [text-wrap:balance]">Nuestra Experiencia</h2>
                 <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
                     {proyects.map(proyect => (
-                        <li key={proyect.id} className="flex flex-col items-center prueba">
+                        <li key={proyect.id} className="flex flex-col items-center animaciones">
                             <a target="_blank" rel="noreferrer" href={proyect.link} className="hover:scale-105 transition-all duration-500">
                                 <img src={`/img/${proyect.image}.webp`} alt={`imagen de proyecto ${proyect.name}`} className="h-auto w-[400px]"/>
                             </a>

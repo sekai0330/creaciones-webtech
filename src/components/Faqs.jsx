@@ -68,7 +68,7 @@ export function Faqs ( ) {
                       </div>
                     ))}
                   </div>
-                  <div className="lg:w-2/5 space-y-3 [text-wrap:balance] faded-left">
+                  <div className="lg:w-2/5 space-y-3 [text-wrap:balance] animaciones">
                     <h3 className="text-[#EDFF7D] text-2xl font-bold">¿Aun tienes alguna pregunta?</h3>
                     <p className="text-[#92A7AA] ">Si tienes alguna pregunta o inquietud, no dudes en contactarnos a través de WhatsApp. Estámos listos para proporcionarte respuestas rápidas y soluciones personalizadas.</p>
                     <p className="text-[#92A7AA] ">No dejes que ninguna duda te detenga, ¡estamos a solo un mensaje de distancia para hacer tu experiencia aún mejor!</p>
