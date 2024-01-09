@@ -19,7 +19,7 @@ export function Servicios () {
                                 index === 1
                                     ? "bg-gradient-to-br from-[#010309] to-[#001308] shadow-md shadow-[#285c28] "
                                     : "bg-gradient-to-br from-[#010309] to-[#001308]"
-                            } flex flex-col items-center justify-between px-9 py-4 rounded-2xl border-green-900 border border-opacity-70 `}>
+                            } flex flex-col items-center justify-between px-9 py-4 rounded-2xl border-green-900 border border-opacity-70 animaciones`}>
                                 <div>
                                     <h3 className="text-center text-white font-semibold">{subs.name}</h3>
                                     <p className="text-center text-3xl font-bold text-[#EDFF7D] mt-2">{subs.tipo}</p>

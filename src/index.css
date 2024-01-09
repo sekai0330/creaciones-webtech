@@ -27,6 +27,23 @@
     }
 }
 
+.animaciones-n {
+    animation: revealn linear both;
+    animation-timeline: view();
+    animation-range: entry 15% cover 25%;
+}
+
+@keyframes revealn {
+    from{
+        opacity: 0;
+        translate: 0 100px;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
 .slide-right {
 	animation: slide-right 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -94,4 +111,10 @@
         opacity: 1;
         translate: 0 0;
     }
+}
+
+.prueba {
+    animation: revealn linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
 }

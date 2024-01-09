@@ -76,7 +76,7 @@ export function Formulario () {
                         </form>
                     </div>
                     <div className="md:w-3/5 mt-10 flex flex-col items-center">
-                        <div className=" bg-black bg-opacity-50 border border-opacity-50 border-[#49F992] py-5 px-10 rounded-xl">
+                        <div className=" bg-black bg-opacity-50 border border-opacity-50 border-[#49F992] py-5 px-10 rounded-xl animaciones">
                             <div className='flex items-center gap-3 text-3xl font-semibold text-[#49F992] '>
                                 <h3>WhatsApp</h3>
                                 <IconWhatsapp />
@@ -92,8 +92,8 @@ export function Formulario () {
                                 </div>
                             </div>
                         </div>
-                        <h3 className="text-[#EDFF7D] text-2xl font-bold mt-10">Redes Sociales</h3>
-                        <div className='mt-3'>
+                        <h3 className="text-[#EDFF7D] text-2xl font-bold mt-10 animaciones">Redes Sociales</h3>
+                        <div className='mt-3 animaciones'>
                             <ul className="flex flex-row space-x-2 mt-0">
                                 {redes.map(red => (
                                 <li key={red.id} className="p-1.5 hover:bg-green-700 transition-colors duration-300 rounded-lg" >

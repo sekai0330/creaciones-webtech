@@ -22,7 +22,7 @@ export function Faqs ( ) {
                 <div className="flex flex-col lg:flex-row items-center gap-10">
                   <div className="mt-10 w-full lg:w-3/5">
                     {faqs.map((faq, index) => (
-                      <div key={index} className="mb-3">
+                      <div key={index} className="mb-3 animaciones-n">
                         <h2
                           id={`accordion-collapse-heading-${index}`}
                           className={`flex items-center justify-between px-5 py-3 font-medium rtl:text-right text-white border border-[#49F992] bg-[#051b0d] border-opacity-50 rounded-2xl hover:bg-[#001308] transition-colors duration-300 cursor-pointer ${
@@ -68,7 +68,7 @@ export function Faqs ( ) {
                       </div>
                     ))}
                   </div>
-                  <div className="lg:w-2/5 space-y-3 [text-wrap:balance]">
+                  <div className="lg:w-2/5 space-y-3 [text-wrap:balance] faded-left">
                     <h3 className="text-[#EDFF7D] text-2xl font-bold">¿Aun tienes alguna pregunta?</h3>
                     <p className="text-[#92A7AA] ">Si tienes alguna pregunta o inquietud, no dudes en contactarnos a través de WhatsApp. Estámos listos para proporcionarte respuestas rápidas y soluciones personalizadas.</p>
                     <p className="text-[#92A7AA] ">No dejes que ninguna duda te detenga, ¡estamos a solo un mensaje de distancia para hacer tu experiencia aún mejor!</p>
